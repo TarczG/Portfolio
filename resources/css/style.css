@@ -330,11 +330,9 @@ padding: 30px 100px 50px 100px;
     margin-left:20px;
 }
 #projectTitle{
-    width: 300px;
-    background-color: #000;
-    padding: 10px 20px 10px 20px;
-    color:#fff;
-    font-size: 24px;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    font-size: 42px;
     margin-top: 20px;
 }
 #projectTechnology{
@@ -407,13 +405,13 @@ padding: 30px 100px 50px 100px;
         }
         #actualProjects{
             position: relative;
-            top:300px;
+          
         }
         .TechnologySkill {
             padding: 30px 20px 30px 20px;
                 }
     }
-        
+       
     @media only screen and (max-width: 1500px){
         #projectPageProject img{
          width:100%;
@@ -438,12 +436,25 @@ padding: 30px 100px 50px 100px;
             margin: 10px 0 10px 0;
         }
         #detailsPageProject a, #goldLink a {
-            display: inline-block;
             margin: 10px 0 10px 0;
-            
-            padding: 0 0 0 10px;
+            padding: 0 0 0 30px;
+            float: right;
+        }
+
+        #photo{
+            width:100%;
+        }
+
+        .information{
+            width:100%;
+        }
+
+        .TechnologySkill {
+            padding: 30px 70px 50px 70px;
         }
     }
+
+
 
 
     @media only screen and (orientation:portrait){
