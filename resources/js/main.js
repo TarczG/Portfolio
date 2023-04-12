@@ -18,21 +18,13 @@ window.onscroll = function() {
 const context ={
     title: 'Witaj !',
     body: 'Cześć, jestem Grzesiek. Z wykształcenia jestem zarówno architektem i programistą. Umiejętności analityczne wykształcone podczas programowania pomagają w rowziązywaniu problemów w dziedzinach na pozór oderwany od sfery IT. Problemy architektoniczne są dla mnie inspiracją do rozwiązywania ich za pomocą narzędzi komputerowych. Przedstawiam stronę będącą kombinacją treści ARCH i IT. Zapraszam ! ',
-        projects: [    {
-            name:'Portfolio Architektoniczne ',
-            technology: 'HTML/CSS',
-            description: 'Strona przedstawiająca prace podczas studiów na kierunku Architektura',
-            image:'./resources/images/widokStronaArch.JPG',
-            url:'https://github.com/TarczG/GT_Website',
-            live:'https://tarczg.github.io/GT_Website/'
-        },
-          {
-            name:'Trzy Karty',
+        projects: [            {
+            name:'Data Science Portfolio ',
             technology: 'HTML/CSS/JS',
-            description: 'Czy więcej szans masz na wygraną jak zmienisz kartę w czasie gry czy nie ?  ',
-            image:'./resources/images/widokTrzyKarty.JPG',
-            url:'https://github.com/TarczG/ThreeCards',
-            live:'https://tarczg.github.io/ThreeCards/'
+            description: 'Strona przedstawiająca wyniki analiz z m.in. Python + Dash + Pandas',
+            image:'./resources/images/DSportfolio.JPG',
+            url:'https://tarczg.github.io/DsPortfolio/',
+            live:'https://tarczg.github.io/DsPortfolio/'
         },
           {
             name:'Akustyk',
@@ -40,6 +32,13 @@ const context ={
             description: 'Program akustyk jest programem demonstracyjnym, testowym , który po dalszym rozbudowaniu może służyć do określania odporności stolarki okiennej i drzwiowej w oparciu o dostarczaną dokumentację analiz akustycznej dla otoczenia budynku.',
             image:'./resources/images/widokAkustyk.JPG',
             url:'https://github.com/TarczG/Akustyk'
+        },
+        {
+            name:'Analiza wpływu biedy na długość życia',
+            technology: 'PYTHON, PANDAS, DASH',
+            description: 'Analiza wpływu zamożności krajów na długość życia mieszkańców na przestrzeni lat i kontynentów',
+            image:'./resources/images/pandas.JPG',
+            url:'https://github.com/TarczG/dashApp'
         },
         {
             name:'Baza prac dyplomowych',
@@ -56,11 +55,27 @@ const context ={
             url:'https://github.com/TarczG/Mina'
         },
         {
+            name:'Portfolio Architektoniczne ',
+            technology: 'HTML/CSS/JS',
+            description: 'Strona przedstawiająca prace podczas studiów na kierunku Architektura',
+            image:'./resources/images/widokStronaArch.JPG',
+            url:'https://github.com/TarczG/GT_Website',
+            live:'https://tarczg.github.io/GT_Website/'
+        },
+        {
             name:'Snake',
             technology: 'JAVA',
             description: 'Progam w części funkcjonalnej gry oparty na podstawie tutorialu online - Autor BrandonioProductions link: https://www.youtube.com/watch?v=FABTl1Q1byw&list=PL13bz4SHGmRzIHoVh-B30U7jttLxYN_yi&index=38',
             image:'./resources/images/WidokWaz.JPG',
             url:'https://github.com/TarczG/Waz'
+        },  
+         {
+            name:'Trzy Karty',
+            technology: 'HTML/CSS/JS',
+            description: 'Czy więcej szans masz na wygraną jak zmienisz kartę w czasie gry czy nie ?  ',
+            image:'./resources/images/widokTrzyKarty.JPG',
+            url:'https://github.com/TarczG/ThreeCards',
+            live:'https://tarczg.github.io/ThreeCards/'
         }
     ],
     skills: [
@@ -95,9 +110,9 @@ const context ={
             image:'./resources/images/sql.svg'
         },
         {
-            id:'Archi2D',
+            id:'Python',
             progress:'p60',
-            image:'./resources/images/archi2d.svg'
+            image:'./resources/images/archi2dv2.svg'
         },
         {
             id:'3DS',
